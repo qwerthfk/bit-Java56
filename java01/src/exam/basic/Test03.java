@@ -44,9 +44,9 @@ public class Test03 {
 		//문제5. 한글 음절을 저장할 메모리를 준비하시오!
 		//char: 2byte 양의 정수값
 		char ch = 44032; // 10진수 - '가'
-		char ch2 = 0xAC00; // 16진수 - '가'
-		char ch3 = 0126000; // 8진수 - '가'
-		char ch4 = '가';
+		char ch2 = 0xAC00; // 16진수 - '가'  0x로 시작
+		char ch3 = 0126000; // 8진수 - '가'  0으로 시작
+		char ch4 = '가'; // 가 문자의 코드 값 리턴
 		
 		System.out.println(ch);
 		System.out.println(ch2);
@@ -59,3 +59,11 @@ public class Test03 {
 	}
 
 }
+
+
+
+
+
+
+
+
